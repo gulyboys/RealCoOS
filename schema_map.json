@@ -1,0 +1,538 @@
+{
+  "catalog": "workspace",
+  "discovered_at": "2026-02-02T14:51:00.191Z",
+  "dld": {},
+  "monday": [
+    {
+      "table": "workspace.default.monday_crm_raw_contacts",
+      "columns": [
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "full_name",
+          "type": "string"
+        },
+        {
+          "name": "primary_phone_normalized",
+          "type": "bigint"
+        },
+        {
+          "name": "primary_email_normalized",
+          "type": "string"
+        },
+        {
+          "name": "roles",
+          "type": "string"
+        },
+        {
+          "name": "current_buyer_status",
+          "type": "string"
+        },
+        {
+          "name": "current_seller_status",
+          "type": "string"
+        },
+        {
+          "name": "tags",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "date"
+        },
+        {
+          "name": "first_seen_at",
+          "type": "date"
+        },
+        {
+          "name": "last_seen_at",
+          "type": "string"
+        },
+        {
+          "name": "source_boards",
+          "type": "string"
+        },
+        {
+          "name": "matched_by",
+          "type": "int"
+        },
+        {
+          "name": "confidence_score",
+          "type": "bigint"
+        },
+        {
+          "name": "phone_digits",
+          "type": "bigint"
+        },
+        {
+          "name": "phone_last9",
+          "type": "int"
+        },
+        {
+          "name": "email_key",
+          "type": "string"
+        },
+        {
+          "name": "name_key",
+          "type": "string"
+        },
+        {
+          "name": "search_blob",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_crm_raw_recent_events_30d",
+      "columns": [
+        {
+          "name": "event_id",
+          "type": "string"
+        },
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "event_timestamp",
+          "type": "date"
+        },
+        {
+          "name": "event_type",
+          "type": "string"
+        },
+        {
+          "name": "event_source_board",
+          "type": "string"
+        },
+        {
+          "name": "event_source_item_id",
+          "type": "bigint"
+        },
+        {
+          "name": "event_title",
+          "type": "string"
+        },
+        {
+          "name": "event_description",
+          "type": "string"
+        },
+        {
+          "name": "payload_overflow",
+          "type": "string"
+        },
+        {
+          "name": "payload_pointer",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_crm_raw_timeline_p2",
+      "columns": [
+        {
+          "name": "event_id",
+          "type": "string"
+        },
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "event_timestamp",
+          "type": "string"
+        },
+        {
+          "name": "event_type",
+          "type": "string"
+        },
+        {
+          "name": "event_source_board",
+          "type": "string"
+        },
+        {
+          "name": "event_source_item_id",
+          "type": "bigint"
+        },
+        {
+          "name": "event_title",
+          "type": "string"
+        },
+        {
+          "name": "event_description",
+          "type": "string"
+        },
+        {
+          "name": "payload_overflow",
+          "type": "string"
+        },
+        {
+          "name": "payload_pointer",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_crm_raw_recent_contacts_30d",
+      "columns": [
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "full_name",
+          "type": "string"
+        },
+        {
+          "name": "primary_phone_normalized",
+          "type": "bigint"
+        },
+        {
+          "name": "primary_email_normalized",
+          "type": "string"
+        },
+        {
+          "name": "roles",
+          "type": "string"
+        },
+        {
+          "name": "current_buyer_status",
+          "type": "string"
+        },
+        {
+          "name": "current_seller_status",
+          "type": "string"
+        },
+        {
+          "name": "tags",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "string"
+        },
+        {
+          "name": "first_seen_at",
+          "type": "date"
+        },
+        {
+          "name": "last_seen_at",
+          "type": "date"
+        },
+        {
+          "name": "source_boards",
+          "type": "string"
+        },
+        {
+          "name": "matched_by",
+          "type": "string"
+        },
+        {
+          "name": "confidence_score",
+          "type": "int"
+        },
+        {
+          "name": "phone_digits",
+          "type": "bigint"
+        },
+        {
+          "name": "phone_last9",
+          "type": "int"
+        },
+        {
+          "name": "email_key",
+          "type": "string"
+        },
+        {
+          "name": "name_key",
+          "type": "string"
+        },
+        {
+          "name": "search_blob",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.v_monday_crm_contact_profile",
+      "columns": [
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "full_name",
+          "type": "string"
+        },
+        {
+          "name": "phone",
+          "type": "bigint"
+        },
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "roles",
+          "type": "string"
+        },
+        {
+          "name": "current_buyer_status",
+          "type": "string"
+        },
+        {
+          "name": "current_seller_status",
+          "type": "string"
+        },
+        {
+          "name": "tags",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "date"
+        },
+        {
+          "name": "first_seen_at",
+          "type": "date"
+        },
+        {
+          "name": "last_seen_at",
+          "type": "string"
+        },
+        {
+          "name": "confidence_score",
+          "type": "bigint"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_table",
+      "columns": [
+        {
+          "name": "id",
+          "type": "int"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_crm_timeline",
+      "columns": [
+        {
+          "name": "event_id",
+          "type": "string"
+        },
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "event_timestamp",
+          "type": "timestamp"
+        },
+        {
+          "name": "event_type",
+          "type": "string"
+        },
+        {
+          "name": "event_source_board",
+          "type": "string"
+        },
+        {
+          "name": "event_source_item_id",
+          "type": "bigint"
+        },
+        {
+          "name": "event_title",
+          "type": "string"
+        },
+        {
+          "name": "event_description",
+          "type": "string"
+        },
+        {
+          "name": "payload_overflow",
+          "type": "string"
+        },
+        {
+          "name": "payload_pointer",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_crm_raw_timeline_p1",
+      "columns": [
+        {
+          "name": "event_id",
+          "type": "string"
+        },
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "event_timestamp",
+          "type": "date"
+        },
+        {
+          "name": "event_type",
+          "type": "string"
+        },
+        {
+          "name": "event_source_board",
+          "type": "string"
+        },
+        {
+          "name": "event_source_item_id",
+          "type": "bigint"
+        },
+        {
+          "name": "event_title",
+          "type": "string"
+        },
+        {
+          "name": "event_description",
+          "type": "string"
+        },
+        {
+          "name": "payload_overflow",
+          "type": "string"
+        },
+        {
+          "name": "payload_pointer",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.v_monday_crm_contact_timeline",
+      "columns": [
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "event_timestamp",
+          "type": "timestamp"
+        },
+        {
+          "name": "event_type",
+          "type": "string"
+        },
+        {
+          "name": "event_source_board",
+          "type": "string"
+        },
+        {
+          "name": "event_source_item_id",
+          "type": "bigint"
+        },
+        {
+          "name": "event_title",
+          "type": "string"
+        },
+        {
+          "name": "event_description",
+          "type": "string"
+        },
+        {
+          "name": "payload_overflow",
+          "type": "string"
+        },
+        {
+          "name": "payload_pointer",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "table": "workspace.default.monday_crm_contacts",
+      "columns": [
+        {
+          "name": "master_contact_id",
+          "type": "string"
+        },
+        {
+          "name": "full_name",
+          "type": "string"
+        },
+        {
+          "name": "primary_phone_normalized",
+          "type": "bigint"
+        },
+        {
+          "name": "primary_email_normalized",
+          "type": "string"
+        },
+        {
+          "name": "roles",
+          "type": "string"
+        },
+        {
+          "name": "current_buyer_status",
+          "type": "string"
+        },
+        {
+          "name": "current_seller_status",
+          "type": "string"
+        },
+        {
+          "name": "tags",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "date"
+        },
+        {
+          "name": "first_seen_at",
+          "type": "date"
+        },
+        {
+          "name": "last_seen_at",
+          "type": "string"
+        },
+        {
+          "name": "source_boards",
+          "type": "string"
+        },
+        {
+          "name": "matched_by",
+          "type": "int"
+        },
+        {
+          "name": "confidence_score",
+          "type": "bigint"
+        },
+        {
+          "name": "phone_digits",
+          "type": "bigint"
+        },
+        {
+          "name": "phone_last9",
+          "type": "int"
+        },
+        {
+          "name": "email_key",
+          "type": "string"
+        },
+        {
+          "name": "name_key",
+          "type": "string"
+        },
+        {
+          "name": "search_blob",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,117 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// --- ENUMS ---
+
+enum EntityType {
+  UNIT
+  CONTACT
+}
+
+enum ResolutionSource {
+  DLD
+  MONDAY
+  USER
+  SYSTEM
+}
+
+enum UnresolvedKind {
+  UNIT
+  CONTACT
+  TRANSACTION
+}
+
+enum UnresolvedStatus {
+  OPEN
+  RESOLVED
+  IGNORED
+}
+
+enum UnresolvedReason {
+  NO_UNIT_KEY
+  MULTIPLE_MATCHES
+  CONFLICT_DLD_VS_SIGNAL
+  MISSING_REQUIRED_FIELD
+  ZONE_NOT_MAPPED
+}
+
+// --- TABLES ---
+
+model CanonicalUnit {
+  // Represents ONE real-world property (unit). 
+  // Anchor for the DLD hierarchy.
+  id          String   @id @default(uuid()) @db.Uuid
+  property_id String   @unique                  // Linked to Databricks truth
+  created_at  DateTime @default(now())
+
+  @@map("canonical_unit")
+}
+
+model CanonicalContact {
+  // Represents ONE real-world person. 
+  // Anchor for relationship history.
+  id             String   @id @default(uuid()) @db.Uuid
+  normalized_key String   @unique                  // Hash of identity signals
+  created_at     DateTime @default(now())
+
+  @@map("canonical_contact")
+}
+
+model ResolutionEvent {
+  // APPEND-ONLY record of OS decisions.
+  id          String           @id @default(uuid()) @db.Uuid
+  entity_type EntityType
+  entity_id   String           @db.Uuid
+  source      ResolutionSource
+  source_ref  String?                               // ID in external system
+  payload_json Json                                 // Decision metadata
+  created_at  DateTime         @default(now())
+
+  // NOTE: Enforced as APPEND-ONLY by Governance Gate logic.
+  @@map("resolution_event")
+}
+
+model AuditLog {
+  // IMMUTABLE trace of system/user actions.
+  id          String     @id @default(uuid()) @db.Uuid
+  actor       String                                // actor_id | system
+  action      String
+  entity_type String
+  entity_id   String     @db.Uuid
+  metadata_json Json
+  created_at  DateTime   @default(now())
+
+  @@map("audit_log")
+}
+
+model UnresolvedItem {
+  // Queue for items requiring human or automated reconciliation.
+  id           String           @id @default(uuid()) @db.Uuid
+  kind         UnresolvedKind
+  source       String
+  source_ref   String?
+  reason_code  UnresolvedReason
+  payload_json Json
+  status       UnresolvedStatus @default(OPEN)
+  created_at   DateTime         @default(now())
+
+  @@map("unresolved_item")
+}
+
+/**
+ * --- FORBIDDEN DATA ---
+ * DO NOT ADD THE FOLLOWING FIELDS TO THIS SCHEMA:
+ * 1. price / actual_worth / rent_value
+ * 2. bua / built_up_area / size
+ * 3. beds / bedrooms / rooms
+ * 4. transaction_date / status (Market Status)
+ * 5. area_name / project_name / zone_name
+ * 
+ * REASON: Canonical Memory stores decisions and identity links. 
+ * Raw market facts MUST be fetched from Databricks on-demand.
+ */

@@ -1,0 +1,14 @@
+{
+    "catalog": "workspace",
+    "transactions_source": "workspace.default.genie_transactions_view",
+    "buildings_source": "workspace.default.buildings",
+    "monday_sources": [
+        "workspace.default.monday_crm_contacts",
+        "workspace.default.monday_crm_timeline"
+    ],
+    "locked_at": "2026-02-04T19:15:00Z",
+    "notes": [
+        "Using genie_transactions_view as primary transaction source.",
+        "Using default.buildings as primary building source."
+    ]
+}

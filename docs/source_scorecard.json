@@ -1,0 +1,2535 @@
+{
+  "transactions": [
+    {
+      "table": "workspace.default.genie_transactions_view",
+      "row_count": 4203306,
+      "columns": [
+        {
+          "name": "_c1",
+          "type": "string"
+        },
+        {
+          "name": "_c10",
+          "type": "string"
+        },
+        {
+          "name": "_c11",
+          "type": "string"
+        },
+        {
+          "name": "_c12",
+          "type": "string"
+        },
+        {
+          "name": "_c13",
+          "type": "string"
+        },
+        {
+          "name": "_c14",
+          "type": "string"
+        },
+        {
+          "name": "_c15",
+          "type": "string"
+        },
+        {
+          "name": "_c16",
+          "type": "string"
+        },
+        {
+          "name": "_c17",
+          "type": "string"
+        },
+        {
+          "name": "_c18",
+          "type": "string"
+        },
+        {
+          "name": "_c19",
+          "type": "string"
+        },
+        {
+          "name": "_c2",
+          "type": "string"
+        },
+        {
+          "name": "_c20",
+          "type": "string"
+        },
+        {
+          "name": "_c21",
+          "type": "string"
+        },
+        {
+          "name": "_c22",
+          "type": "string"
+        },
+        {
+          "name": "_c23",
+          "type": "string"
+        },
+        {
+          "name": "_c24",
+          "type": "string"
+        },
+        {
+          "name": "_c25",
+          "type": "string"
+        },
+        {
+          "name": "_c26",
+          "type": "string"
+        },
+        {
+          "name": "_c27",
+          "type": "string"
+        },
+        {
+          "name": "_c28",
+          "type": "string"
+        },
+        {
+          "name": "_c29",
+          "type": "string"
+        },
+        {
+          "name": "_c3",
+          "type": "string"
+        },
+        {
+          "name": "_c30",
+          "type": "string"
+        },
+        {
+          "name": "_c31",
+          "type": "string"
+        },
+        {
+          "name": "_c4",
+          "type": "string"
+        },
+        {
+          "name": "_c5",
+          "type": "string"
+        },
+        {
+          "name": "_c6",
+          "type": "string"
+        },
+        {
+          "name": "_c7",
+          "type": "string"
+        },
+        {
+          "name": "_c8",
+          "type": "string"
+        },
+        {
+          "name": "_c9",
+          "type": "string"
+        },
+        {
+          "name": "_rescued_data",
+          "type": "string"
+        },
+        {
+          "name": "account_name",
+          "type": "string"
+        },
+        {
+          "name": "acres",
+          "type": "string"
+        },
+        {
+          "name": "act_one_act_two_2025",
+          "type": "string"
+        },
+        {
+          "name": "activity_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "activity_type_en",
+          "type": "string"
+        },
+        {
+          "name": "activity_type_id",
+          "type": "string"
+        },
+        {
+          "name": "actual_area",
+          "type": "string"
+        },
+        {
+          "name": "actual_common_area",
+          "type": "string"
+        },
+        {
+          "name": "actual_worth",
+          "type": "string"
+        },
+        {
+          "name": "added_to_group",
+          "type": "string"
+        },
+        {
+          "name": "address_opera_2025",
+          "type": "string"
+        },
+        {
+          "name": "age",
+          "type": "string"
+        },
+        {
+          "name": "agent",
+          "type": "string"
+        },
+        {
+          "name": "agent_database",
+          "type": "string"
+        },
+        {
+          "name": "alf_availability",
+          "type": "string"
+        },
+        {
+          "name": "all_monthly_index",
+          "type": "string"
+        },
+        {
+          "name": "all_monthly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "all_quarterly_index",
+          "type": "string"
+        },
+        {
+          "name": "all_quarterly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "all_yearly_index",
+          "type": "string"
+        },
+        {
+          "name": "all_yearly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "anya",
+          "type": "string"
+        },
+        {
+          "name": "application_ar",
+          "type": "string"
+        },
+        {
+          "name": "application_id",
+          "type": "string"
+        },
+        {
+          "name": "approvals",
+          "type": "string"
+        },
+        {
+          "name": "arabian_ranches_3",
+          "type": "string"
+        },
+        {
+          "name": "area",
+          "type": "string"
+        },
+        {
+          "name": "area_id",
+          "type": "string"
+        },
+        {
+          "name": "area_name",
+          "type": "string"
+        },
+        {
+          "name": "area_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "area_name_en",
+          "type": "string"
+        },
+        {
+          "name": "areanameen",
+          "type": "string"
+        },
+        {
+          "name": "balcony_area",
+          "type": "string"
+        },
+        {
+          "name": "bay_villas",
+          "type": "string"
+        },
+        {
+          "name": "bedrooms",
+          "type": "string"
+        },
+        {
+          "name": "beds",
+          "type": "string"
+        },
+        {
+          "name": "birth_date",
+          "type": "string"
+        },
+        {
+          "name": "birthdate",
+          "type": "string"
+        },
+        {
+          "name": "bld_levels",
+          "type": "string"
+        },
+        {
+          "name": "booking_date",
+          "type": "string"
+        },
+        {
+          "name": "broker_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "broker_name_en",
+          "type": "string"
+        },
+        {
+          "name": "broker_number",
+          "type": "string"
+        },
+        {
+          "name": "bua",
+          "type": "string"
+        },
+        {
+          "name": "budget_year",
+          "type": "string"
+        },
+        {
+          "name": "building",
+          "type": "string"
+        },
+        {
+          "name": "building_name",
+          "type": "string"
+        },
+        {
+          "name": "building_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "building_name_en",
+          "type": "string"
+        },
+        {
+          "name": "building_no",
+          "type": "string"
+        },
+        {
+          "name": "building_number",
+          "type": "string"
+        },
+        {
+          "name": "buildingnameen",
+          "type": "string"
+        },
+        {
+          "name": "built_up_area",
+          "type": "string"
+        },
+        {
+          "name": "burj_crown_2025",
+          "type": "string"
+        },
+        {
+          "name": "burj_royale_2025",
+          "type": "string"
+        },
+        {
+          "name": "buyer__seller",
+          "type": "string"
+        },
+        {
+          "name": "buyers_name",
+          "type": "string"
+        },
+        {
+          "name": "cancellation_date",
+          "type": "string"
+        },
+        {
+          "name": "car_parks",
+          "type": "string"
+        },
+        {
+          "name": "chamber_of_commerce_no",
+          "type": "string"
+        },
+        {
+          "name": "city",
+          "type": "string"
+        },
+        {
+          "name": "city_center_residences_2025",
+          "type": "string"
+        },
+        {
+          "name": "cluster",
+          "type": "string"
+        },
+        {
+          "name": "cluster_2",
+          "type": "string"
+        },
+        {
+          "name": "code",
+          "type": "string"
+        },
+        {
+          "name": "columns",
+          "type": "string"
+        },
+        {
+          "name": "comb",
+          "type": "string"
+        },
+        {
+          "name": "combine",
+          "type": "string"
+        },
+        {
+          "name": "common_area",
+          "type": "string"
+        },
+        {
+          "name": "community",
+          "type": "string"
+        },
+        {
+          "name": "company_it_and_system_audit",
+          "type": "string"
+        },
+        {
+          "name": "company_passwords",
+          "type": "string"
+        },
+        {
+          "name": "companycontact",
+          "type": "string"
+        },
+        {
+          "name": "completion_date",
+          "type": "string"
+        },
+        {
+          "name": "contact_number",
+          "type": "string"
+        },
+        {
+          "name": "contracts",
+          "type": "string"
+        },
+        {
+          "name": "country",
+          "type": "string"
+        },
+        {
+          "name": "country_name_en",
+          "type": "string"
+        },
+        {
+          "name": "countrynameen",
+          "type": "string"
+        },
+        {
+          "name": "creation_date",
+          "type": "string"
+        },
+        {
+          "name": "current_company_db_0725",
+          "type": "string"
+        },
+        {
+          "name": "customer_name",
+          "type": "string"
+        },
+        {
+          "name": "customer_number",
+          "type": "string"
+        },
+        {
+          "name": "customer_type",
+          "type": "string"
+        },
+        {
+          "name": "d1_residences",
+          "type": "string"
+        },
+        {
+          "name": "damac_2025_report",
+          "type": "string"
+        },
+        {
+          "name": "damac_hills_1",
+          "type": "string"
+        },
+        {
+          "name": "damac_lagoons",
+          "type": "string"
+        },
+        {
+          "name": "data_type",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "name": "deals",
+          "type": "string"
+        },
+        {
+          "name": "ded_activity_code",
+          "type": "string"
+        },
+        {
+          "name": "developer_id",
+          "type": "string"
+        },
+        {
+          "name": "developer_name",
+          "type": "string"
+        },
+        {
+          "name": "developer_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "developer_name_en",
+          "type": "string"
+        },
+        {
+          "name": "developer_number",
+          "type": "string"
+        },
+        {
+          "name": "district_one__phase_1__2",
+          "type": "string"
+        },
+        {
+          "name": "district_one_phase_2",
+          "type": "string"
+        },
+        {
+          "name": "district_one_phase_3",
+          "type": "string"
+        },
+        {
+          "name": "district_one_west",
+          "type": "string"
+        },
+        {
+          "name": "dm_no",
+          "type": "string"
+        },
+        {
+          "name": "dm_sub_no",
+          "type": "string"
+        },
+        {
+          "name": "dmno",
+          "type": "string"
+        },
+        {
+          "name": "dmsubno",
+          "type": "string"
+        },
+        {
+          "name": "documents",
+          "type": "string"
+        },
+        {
+          "name": "dubai_islands_a__plots",
+          "type": "string"
+        },
+        {
+          "name": "e_mail_add",
+          "type": "string"
+        },
+        {
+          "name": "elevators",
+          "type": "string"
+        },
+        {
+          "name": "emaar_oasis",
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "email_address",
+          "type": "string"
+        },
+        {
+          "name": "emirates_living",
+          "type": "string"
+        },
+        {
+          "name": "error_count",
+          "type": "string"
+        },
+        {
+          "name": "escrow_agent_id",
+          "type": "string"
+        },
+        {
+          "name": "escrow_agent_name",
+          "type": "string"
+        },
+        {
+          "name": "escrow_agent_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "escrow_agent_name_en",
+          "type": "string"
+        },
+        {
+          "name": "escrow_agent_number",
+          "type": "string"
+        },
+        {
+          "name": "fax",
+          "type": "string"
+        },
+        {
+          "name": "fax_no",
+          "type": "string"
+        },
+        {
+          "name": "first_date_of_month",
+          "type": "string"
+        },
+        {
+          "name": "flat",
+          "type": "string"
+        },
+        {
+          "name": "flat_monthly_index",
+          "type": "string"
+        },
+        {
+          "name": "flat_monthly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "flat_number",
+          "type": "string"
+        },
+        {
+          "name": "flat_quarterly_index",
+          "type": "string"
+        },
+        {
+          "name": "flat_quarterly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "flat_yearly_index",
+          "type": "string"
+        },
+        {
+          "name": "flat_yearly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "flats",
+          "type": "string"
+        },
+        {
+          "name": "floor",
+          "type": "string"
+        },
+        {
+          "name": "floors",
+          "type": "string"
+        },
+        {
+          "name": "forte_2025",
+          "type": "string"
+        },
+        {
+          "name": "full_name",
+          "type": "string"
+        },
+        {
+          "name": "furjan_apartments",
+          "type": "string"
+        },
+        {
+          "name": "gardenia_al_wasl",
+          "type": "string"
+        },
+        {
+          "name": "gender",
+          "type": "string"
+        },
+        {
+          "name": "general",
+          "type": "string"
+        },
+        {
+          "name": "golf_lane",
+          "type": "string"
+        },
+        {
+          "name": "grande_2025",
+          "type": "string"
+        },
+        {
+          "name": "grandparent_property_id",
+          "type": "string"
+        },
+        {
+          "name": "group_id",
+          "type": "string"
+        },
+        {
+          "name": "has_errors",
+          "type": "string"
+        },
+        {
+          "name": "has_parking",
+          "type": "string"
+        },
+        {
+          "name": "hoozh__khaled",
+          "type": "string"
+        },
+        {
+          "name": "hoozh_private",
+          "type": "string"
+        },
+        {
+          "name": "house__apartment_no",
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "type": "string"
+        },
+        {
+          "name": "id_number",
+          "type": "string"
+        },
+        {
+          "name": "idnumber",
+          "type": "string"
+        },
+        {
+          "name": "instance_date",
+          "type": "string"
+        },
+        {
+          "name": "is_branch",
+          "type": "string"
+        },
+        {
+          "name": "is_free_hold",
+          "type": "string"
+        },
+        {
+          "name": "is_lease_hold",
+          "type": "string"
+        },
+        {
+          "name": "is_pre_registration",
+          "type": "string"
+        },
+        {
+          "name": "is_registered",
+          "type": "string"
+        },
+        {
+          "name": "jebel_ali_village",
+          "type": "string"
+        },
+        {
+          "name": "joint_acct_name",
+          "type": "string"
+        },
+        {
+          "name": "jumeirah_park",
+          "type": "string"
+        },
+        {
+          "name": "land_number",
+          "type": "string"
+        },
+        {
+          "name": "land_sub_number",
+          "type": "string"
+        },
+        {
+          "name": "land_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "land_type_en",
+          "type": "string"
+        },
+        {
+          "name": "land_type_id",
+          "type": "string"
+        },
+        {
+          "name": "landnumber",
+          "type": "string"
+        },
+        {
+          "name": "landsubnumber",
+          "type": "string"
+        },
+        {
+          "name": "last_contacted",
+          "type": "string"
+        },
+        {
+          "name": "last_date_transacted",
+          "type": "string"
+        },
+        {
+          "name": "last_price_transacted",
+          "type": "string"
+        },
+        {
+          "name": "lead_tank",
+          "type": "string"
+        },
+        {
+          "name": "leads",
+          "type": "string"
+        },
+        {
+          "name": "legal_status",
+          "type": "string"
+        },
+        {
+          "name": "legal_status_ar",
+          "type": "string"
+        },
+        {
+          "name": "legal_status_en",
+          "type": "string"
+        },
+        {
+          "name": "levels",
+          "type": "string"
+        },
+        {
+          "name": "license_end_date",
+          "type": "string"
+        },
+        {
+          "name": "license_expiry_date",
+          "type": "string"
+        },
+        {
+          "name": "license_issue_date",
+          "type": "string"
+        },
+        {
+          "name": "license_number",
+          "type": "string"
+        },
+        {
+          "name": "license_source_ar",
+          "type": "string"
+        },
+        {
+          "name": "license_source_en",
+          "type": "string"
+        },
+        {
+          "name": "license_source_id",
+          "type": "string"
+        },
+        {
+          "name": "license_start_date",
+          "type": "string"
+        },
+        {
+          "name": "license_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "license_type_en",
+          "type": "string"
+        },
+        {
+          "name": "license_type_id",
+          "type": "string"
+        },
+        {
+          "name": "m",
+          "type": "string"
+        },
+        {
+          "name": "main_office_id",
+          "type": "string"
+        },
+        {
+          "name": "main_rooks__accounts__conveyances_build",
+          "type": "string"
+        },
+        {
+          "name": "management_company_id",
+          "type": "string"
+        },
+        {
+          "name": "management_company_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "management_company_name_en",
+          "type": "string"
+        },
+        {
+          "name": "market_type_id",
+          "type": "string"
+        },
+        {
+          "name": "master_community_id",
+          "type": "string"
+        },
+        {
+          "name": "master_community_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "master_community_name_en",
+          "type": "string"
+        },
+        {
+          "name": "master_developer_id",
+          "type": "string"
+        },
+        {
+          "name": "master_developer_name",
+          "type": "string"
+        },
+        {
+          "name": "master_developer_number",
+          "type": "string"
+        },
+        {
+          "name": "master_project",
+          "type": "string"
+        },
+        {
+          "name": "master_project_ar",
+          "type": "string"
+        },
+        {
+          "name": "master_project_en",
+          "type": "string"
+        },
+        {
+          "name": "master_project_id",
+          "type": "string"
+        },
+        {
+          "name": "master_project_land",
+          "type": "string"
+        },
+        {
+          "name": "meter_rent_price",
+          "type": "string"
+        },
+        {
+          "name": "meter_sale_price",
+          "type": "string"
+        },
+        {
+          "name": "mjl",
+          "type": "string"
+        },
+        {
+          "name": "mobile",
+          "type": "string"
+        },
+        {
+          "name": "mobile_number",
+          "type": "string"
+        },
+        {
+          "name": "munc_number",
+          "type": "string"
+        },
+        {
+          "name": "munc_zip_code",
+          "type": "string"
+        },
+        {
+          "name": "municipality_number",
+          "type": "string"
+        },
+        {
+          "name": "murooj_east",
+          "type": "string"
+        },
+        {
+          "name": "murooj_west",
+          "type": "string"
+        },
+        {
+          "name": "my_priority",
+          "type": "string"
+        },
+        {
+          "name": "nad_al_shiba_2025",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "name_ar",
+          "type": "string"
+        },
+        {
+          "name": "name_en",
+          "type": "string"
+        },
+        {
+          "name": "nameen",
+          "type": "string"
+        },
+        {
+          "name": "nationality",
+          "type": "string"
+        },
+        {
+          "name": "nearest_landmark_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_landmark_en",
+          "type": "string"
+        },
+        {
+          "name": "nearest_mall_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_mall_en",
+          "type": "string"
+        },
+        {
+          "name": "nearest_metro_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_metro_en",
+          "type": "string"
+        },
+        {
+          "name": "network_manager_theta",
+          "type": "string"
+        },
+        {
+          "name": "no_of_buildings",
+          "type": "string"
+        },
+        {
+          "name": "no_of_lands",
+          "type": "string"
+        },
+        {
+          "name": "no_of_parties_role_1",
+          "type": "string"
+        },
+        {
+          "name": "no_of_parties_role_2",
+          "type": "string"
+        },
+        {
+          "name": "no_of_parties_role_3",
+          "type": "string"
+        },
+        {
+          "name": "no_of_siteplans",
+          "type": "string"
+        },
+        {
+          "name": "no_of_units",
+          "type": "string"
+        },
+        {
+          "name": "no_of_villas",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "type": "string"
+        },
+        {
+          "name": "number",
+          "type": "string"
+        },
+        {
+          "name": "offices",
+          "type": "string"
+        },
+        {
+          "name": "opal_gardens",
+          "type": "string"
+        },
+        {
+          "name": "owner_name",
+          "type": "string"
+        },
+        {
+          "name": "p_number",
+          "type": "string"
+        },
+        {
+          "name": "package",
+          "type": "string"
+        },
+        {
+          "name": "parcel_id",
+          "type": "string"
+        },
+        {
+          "name": "parent_property_id",
+          "type": "string"
+        },
+        {
+          "name": "parking_allocation_type",
+          "type": "string"
+        },
+        {
+          "name": "parking_allocation_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "parking_allocation_type_en",
+          "type": "string"
+        },
+        {
+          "name": "parking_number",
+          "type": "string"
+        },
+        {
+          "name": "participant_id",
+          "type": "string"
+        },
+        {
+          "name": "party_nationality",
+          "type": "string"
+        },
+        {
+          "name": "passport_expiry_date",
+          "type": "string"
+        },
+        {
+          "name": "passport_number",
+          "type": "string"
+        },
+        {
+          "name": "passportexpirydate",
+          "type": "string"
+        },
+        {
+          "name": "percent_completed",
+          "type": "string"
+        },
+        {
+          "name": "person_title",
+          "type": "string"
+        },
+        {
+          "name": "person_type",
+          "type": "string"
+        },
+        {
+          "name": "phase",
+          "type": "string"
+        },
+        {
+          "name": "phone",
+          "type": "string"
+        },
+        {
+          "name": "plan_type",
+          "type": "string"
+        },
+        {
+          "name": "plot_area",
+          "type": "string"
+        },
+        {
+          "name": "plot_number",
+          "type": "string"
+        },
+        {
+          "name": "plot_pre_reg_no",
+          "type": "string"
+        },
+        {
+          "name": "pnumber",
+          "type": "string"
+        },
+        {
+          "name": "po_box__postal_code",
+          "type": "string"
+        },
+        {
+          "name": "pre_registration_number",
+          "type": "string"
+        },
+        {
+          "name": "premise_1",
+          "type": "string"
+        },
+        {
+          "name": "primary_location_code",
+          "type": "string"
+        },
+        {
+          "name": "primary_purpose",
+          "type": "string"
+        },
+        {
+          "name": "primary_sales_manager",
+          "type": "string"
+        },
+        {
+          "name": "procedure",
+          "type": "string"
+        },
+        {
+          "name": "procedure_area",
+          "type": "string"
+        },
+        {
+          "name": "procedure_id",
+          "type": "string"
+        },
+        {
+          "name": "procedure_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "procedure_name_en",
+          "type": "string"
+        },
+        {
+          "name": "procedure_number",
+          "type": "string"
+        },
+        {
+          "name": "procedure_party_type_name_en",
+          "type": "string"
+        },
+        {
+          "name": "procedure_value",
+          "type": "string"
+        },
+        {
+          "name": "procedure_year",
+          "type": "string"
+        },
+        {
+          "name": "procedurenameen",
+          "type": "string"
+        },
+        {
+          "name": "procedurepartytypenameen",
+          "type": "string"
+        },
+        {
+          "name": "procedurevalue",
+          "type": "string"
+        },
+        {
+          "name": "project",
+          "type": "string"
+        },
+        {
+          "name": "project_classification_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_classification_id",
+          "type": "string"
+        },
+        {
+          "name": "project_description_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_description_en",
+          "type": "string"
+        },
+        {
+          "name": "project_end_date",
+          "type": "string"
+        },
+        {
+          "name": "project_id",
+          "type": "string"
+        },
+        {
+          "name": "project_lnd",
+          "type": "string"
+        },
+        {
+          "name": "project_name",
+          "type": "string"
+        },
+        {
+          "name": "project_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_name_en",
+          "type": "string"
+        },
+        {
+          "name": "project_name_unit_number",
+          "type": "string"
+        },
+        {
+          "name": "project_number",
+          "type": "string"
+        },
+        {
+          "name": "project_start_date",
+          "type": "string"
+        },
+        {
+          "name": "project_status",
+          "type": "string"
+        },
+        {
+          "name": "project_status_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_type_id",
+          "type": "string"
+        },
+        {
+          "name": "projects_info__pics",
+          "type": "string"
+        },
+        {
+          "name": "property_group_id",
+          "type": "string"
+        },
+        {
+          "name": "property_group_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_group_name_en",
+          "type": "string"
+        },
+        {
+          "name": "property_id",
+          "type": "string"
+        },
+        {
+          "name": "property_name",
+          "type": "string"
+        },
+        {
+          "name": "property_number",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_en",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_id",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_name_en",
+          "type": "string"
+        },
+        {
+          "name": "property_total_value",
+          "type": "string"
+        },
+        {
+          "name": "property_type",
+          "type": "string"
+        },
+        {
+          "name": "property_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_type_en",
+          "type": "string"
+        },
+        {
+          "name": "property_type_id",
+          "type": "string"
+        },
+        {
+          "name": "property_usage_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_usage_en",
+          "type": "string"
+        },
+        {
+          "name": "propertytypeen",
+          "type": "string"
+        },
+        {
+          "name": "pulse_beachfront",
+          "type": "string"
+        },
+        {
+          "name": "pulse_phase_1__2",
+          "type": "string"
+        },
+        {
+          "name": "ranches_3",
+          "type": "string"
+        },
+        {
+          "name": "ranim_leads_2025",
+          "type": "string"
+        },
+        {
+          "name": "real_estate_broker_id",
+          "type": "string"
+        },
+        {
+          "name": "real_estate_id",
+          "type": "string"
+        },
+        {
+          "name": "real_estate_number",
+          "type": "string"
+        },
+        {
+          "name": "realco_inventory_workbook__complete_sheet_exploration",
+          "type": "string"
+        },
+        {
+          "name": "reg_no",
+          "type": "string"
+        },
+        {
+          "name": "reg_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "reg_type_en",
+          "type": "string"
+        },
+        {
+          "name": "reg_type_id",
+          "type": "string"
+        },
+        {
+          "name": "regis",
+          "type": "string"
+        },
+        {
+          "name": "registration_date",
+          "type": "string"
+        },
+        {
+          "name": "registration_number",
+          "type": "string"
+        },
+        {
+          "name": "rent_value",
+          "type": "string"
+        },
+        {
+          "name": "request_date",
+          "type": "string"
+        },
+        {
+          "name": "request_id",
+          "type": "string"
+        },
+        {
+          "name": "request_source_ar",
+          "type": "string"
+        },
+        {
+          "name": "request_source_en",
+          "type": "string"
+        },
+        {
+          "name": "request_source_id",
+          "type": "string"
+        },
+        {
+          "name": "rooms",
+          "type": "string"
+        },
+        {
+          "name": "rooms_ar",
+          "type": "string"
+        },
+        {
+          "name": "rooms_description",
+          "type": "string"
+        },
+        {
+          "name": "rooms_en",
+          "type": "string"
+        },
+        {
+          "name": "row_status_code",
+          "type": "string"
+        },
+        {
+          "name": "rows",
+          "type": "string"
+        },
+        {
+          "name": "saads_team",
+          "type": "string"
+        },
+        {
+          "name": "sales_progression_only",
+          "type": "string"
+        },
+        {
+          "name": "secondary_mobile",
+          "type": "string"
+        },
+        {
+          "name": "seeking_dubai_website_contact",
+          "type": "string"
+        },
+        {
+          "name": "selling_price",
+          "type": "string"
+        },
+        {
+          "name": "separated_from",
+          "type": "string"
+        },
+        {
+          "name": "separated_reference",
+          "type": "string"
+        },
+        {
+          "name": "service_category_id",
+          "type": "string"
+        },
+        {
+          "name": "service_category_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "service_category_name_en",
+          "type": "string"
+        },
+        {
+          "name": "service_cost",
+          "type": "string"
+        },
+        {
+          "name": "sheet_name",
+          "type": "string"
+        },
+        {
+          "name": "shops",
+          "type": "string"
+        },
+        {
+          "name": "size",
+          "type": "string"
+        },
+        {
+          "name": "sobha_hartland",
+          "type": "string"
+        },
+        {
+          "name": "sobha_waves_opulence",
+          "type": "string"
+        },
+        {
+          "name": "solo_players",
+          "type": "string"
+        },
+        {
+          "name": "source_table",
+          "type": "string"
+        },
+        {
+          "name": "south_bay",
+          "type": "string"
+        },
+        {
+          "name": "staff",
+          "type": "string"
+        },
+        {
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "name": "street_name",
+          "type": "string"
+        },
+        {
+          "name": "sub_service_application_en",
+          "type": "string"
+        },
+        {
+          "name": "subitems",
+          "type": "string"
+        },
+        {
+          "name": "subscriptions_cost",
+          "type": "string"
+        },
+        {
+          "name": "sur_la_mer",
+          "type": "string"
+        },
+        {
+          "name": "swimming_pools",
+          "type": "string"
+        },
+        {
+          "name": "table_1",
+          "type": "string"
+        },
+        {
+          "name": "tags",
+          "type": "string"
+        },
+        {
+          "name": "tel_office",
+          "type": "string"
+        },
+        {
+          "name": "tel_residence",
+          "type": "string"
+        },
+        {
+          "name": "telephone_no",
+          "type": "string"
+        },
+        {
+          "name": "telephone_number",
+          "type": "string"
+        },
+        {
+          "name": "telephone_office",
+          "type": "string"
+        },
+        {
+          "name": "telephone_residence",
+          "type": "string"
+        },
+        {
+          "name": "text",
+          "type": "string"
+        },
+        {
+          "name": "the_valley",
+          "type": "string"
+        },
+        {
+          "name": "theme",
+          "type": "string"
+        },
+        {
+          "name": "tilal_al_furjan",
+          "type": "string"
+        },
+        {
+          "name": "total_area",
+          "type": "string"
+        },
+        {
+          "name": "townhouse_number",
+          "type": "string"
+        },
+        {
+          "name": "townsquare",
+          "type": "string"
+        },
+        {
+          "name": "trans_group_ar",
+          "type": "string"
+        },
+        {
+          "name": "trans_group_en",
+          "type": "string"
+        },
+        {
+          "name": "trans_group_id",
+          "type": "string"
+        },
+        {
+          "name": "transaction_id",
+          "type": "string"
+        },
+        {
+          "name": "trump_estate_damac_hills_2024",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "name": "uae_id_number",
+          "type": "string"
+        },
+        {
+          "name": "uaeidnumber",
+          "type": "string"
+        },
+        {
+          "name": "unified_number",
+          "type": "string"
+        },
+        {
+          "name": "unifiednumber",
+          "type": "string"
+        },
+        {
+          "name": "unit",
+          "type": "string"
+        },
+        {
+          "name": "unit_balcony_area",
+          "type": "string"
+        },
+        {
+          "name": "unit_no",
+          "type": "string"
+        },
+        {
+          "name": "unit_number",
+          "type": "string"
+        },
+        {
+          "name": "unit_number_proxy",
+          "type": "string"
+        },
+        {
+          "name": "unit_parking_number",
+          "type": "string"
+        },
+        {
+          "name": "unitnumber",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_0",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_1",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_10",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_18",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_2",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_3",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_4",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_5",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_6",
+          "type": "string"
+        },
+        {
+          "name": "unnamed_7",
+          "type": "string"
+        },
+        {
+          "name": "usage_id",
+          "type": "string"
+        },
+        {
+          "name": "usage_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "usage_name_en",
+          "type": "string"
+        },
+        {
+          "name": "villa_monthly_index",
+          "type": "string"
+        },
+        {
+          "name": "villa_monthly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "villa_no",
+          "type": "string"
+        },
+        {
+          "name": "villa_number",
+          "type": "string"
+        },
+        {
+          "name": "villa_number_1",
+          "type": "string"
+        },
+        {
+          "name": "villa_quarterly_index",
+          "type": "string"
+        },
+        {
+          "name": "villa_quarterly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "villa_yearly_index",
+          "type": "string"
+        },
+        {
+          "name": "villa_yearly_price_index",
+          "type": "string"
+        },
+        {
+          "name": "warsan_village",
+          "type": "string"
+        },
+        {
+          "name": "webpage",
+          "type": "string"
+        },
+        {
+          "name": "website_leads",
+          "type": "string"
+        },
+        {
+          "name": "whatsapp",
+          "type": "string"
+        },
+        {
+          "name": "whatsapp_1",
+          "type": "string"
+        },
+        {
+          "name": "zone_id",
+          "type": "string"
+        },
+        {
+          "name": "zoning_authority_ar",
+          "type": "string"
+        },
+        {
+          "name": "zoning_authority_en",
+          "type": "string"
+        },
+        {
+          "name": "zoning_authority_id",
+          "type": "string"
+        },
+        {
+          "name": " email",
+          "type": "string"
+        },
+        {
+          "name": " mobile",
+          "type": "string"
+        },
+        {
+          "name": " nationality",
+          "type": "string"
+        },
+        {
+          "name": " office",
+          "type": "string"
+        },
+        {
+          "name": "_source_table_name",
+          "type": "string"
+        }
+      ],
+      "signals": {
+        "has_date": true,
+        "has_price": true,
+        "has_unit_or_property_id": true,
+        "has_area_or_project": true
+      },
+      "notes": []
+    },
+    {
+      "table": "workspace.dld_raw.transactions",
+      "row_count": 1621515,
+      "columns": [
+        {
+          "name": "transaction_id",
+          "type": "string"
+        },
+        {
+          "name": "procedure_id",
+          "type": "int"
+        },
+        {
+          "name": "trans_group_id",
+          "type": "int"
+        },
+        {
+          "name": "trans_group_ar",
+          "type": "string"
+        },
+        {
+          "name": "trans_group_en",
+          "type": "string"
+        },
+        {
+          "name": "procedure_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "procedure_name_en",
+          "type": "string"
+        },
+        {
+          "name": "instance_date",
+          "type": "date"
+        },
+        {
+          "name": "property_type_id",
+          "type": "int"
+        },
+        {
+          "name": "property_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_type_en",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_id",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_en",
+          "type": "string"
+        },
+        {
+          "name": "property_usage_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_usage_en",
+          "type": "string"
+        },
+        {
+          "name": "reg_type_id",
+          "type": "int"
+        },
+        {
+          "name": "reg_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "reg_type_en",
+          "type": "string"
+        },
+        {
+          "name": "area_id",
+          "type": "int"
+        },
+        {
+          "name": "area_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "area_name_en",
+          "type": "string"
+        },
+        {
+          "name": "building_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "building_name_en",
+          "type": "string"
+        },
+        {
+          "name": "project_number",
+          "type": "string"
+        },
+        {
+          "name": "project_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_name_en",
+          "type": "string"
+        },
+        {
+          "name": "master_project_en",
+          "type": "string"
+        },
+        {
+          "name": "master_project_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_landmark_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_landmark_en",
+          "type": "string"
+        },
+        {
+          "name": "nearest_metro_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_metro_en",
+          "type": "string"
+        },
+        {
+          "name": "nearest_mall_ar",
+          "type": "string"
+        },
+        {
+          "name": "nearest_mall_en",
+          "type": "string"
+        },
+        {
+          "name": "rooms_ar",
+          "type": "string"
+        },
+        {
+          "name": "rooms_en",
+          "type": "string"
+        },
+        {
+          "name": "has_parking",
+          "type": "int"
+        },
+        {
+          "name": "procedure_area",
+          "type": "double"
+        },
+        {
+          "name": "actual_worth",
+          "type": "double"
+        },
+        {
+          "name": "meter_sale_price",
+          "type": "double"
+        },
+        {
+          "name": "rent_value",
+          "type": "string"
+        },
+        {
+          "name": "meter_rent_price",
+          "type": "string"
+        },
+        {
+          "name": "no_of_parties_role_1",
+          "type": "string"
+        },
+        {
+          "name": "no_of_parties_role_2",
+          "type": "string"
+        },
+        {
+          "name": "no_of_parties_role_3",
+          "type": "string"
+        }
+      ],
+      "signals": {
+        "has_date": true,
+        "has_price": true,
+        "has_unit_or_property_id": false,
+        "has_area_or_project": true
+      },
+      "notes": []
+    },
+    {
+      "table": "workspace.dld_ref.transaction_groups",
+      "row_count": 3,
+      "columns": [
+        {
+          "name": "group_id",
+          "type": "int"
+        },
+        {
+          "name": "name_ar",
+          "type": "string"
+        },
+        {
+          "name": "name_en",
+          "type": "string"
+        }
+      ],
+      "signals": {
+        "has_date": false,
+        "has_price": false,
+        "has_unit_or_property_id": false,
+        "has_area_or_project": false
+      },
+      "notes": []
+    }
+  ],
+  "buildings": [
+    {
+      "table": "workspace.default.buildings",
+      "row_count": 239709,
+      "columns": [
+        {
+          "name": "property_id",
+          "type": "string"
+        },
+        {
+          "name": "area_id",
+          "type": "bigint"
+        },
+        {
+          "name": "zone_id",
+          "type": "bigint"
+        },
+        {
+          "name": "area_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "area_name_en",
+          "type": "string"
+        },
+        {
+          "name": "land_number",
+          "type": "bigint"
+        },
+        {
+          "name": "land_sub_number",
+          "type": "bigint"
+        },
+        {
+          "name": "building_number",
+          "type": "string"
+        },
+        {
+          "name": "common_area",
+          "type": "string"
+        },
+        {
+          "name": "actual_common_area",
+          "type": "string"
+        },
+        {
+          "name": "floors",
+          "type": "bigint"
+        },
+        {
+          "name": "rooms",
+          "type": "string"
+        },
+        {
+          "name": "rooms_ar",
+          "type": "string"
+        },
+        {
+          "name": "rooms_en",
+          "type": "string"
+        },
+        {
+          "name": "car_parks",
+          "type": "string"
+        },
+        {
+          "name": "built_up_area",
+          "type": "string"
+        },
+        {
+          "name": "bld_levels",
+          "type": "string"
+        },
+        {
+          "name": "shops",
+          "type": "string"
+        },
+        {
+          "name": "flats",
+          "type": "string"
+        },
+        {
+          "name": "offices",
+          "type": "string"
+        },
+        {
+          "name": "swimming_pools",
+          "type": "string"
+        },
+        {
+          "name": "elevators",
+          "type": "string"
+        },
+        {
+          "name": "actual_area",
+          "type": "string"
+        },
+        {
+          "name": "property_type_id",
+          "type": "bigint"
+        },
+        {
+          "name": "property_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_type_en",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_id",
+          "type": "bigint"
+        },
+        {
+          "name": "property_sub_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_en",
+          "type": "string"
+        },
+        {
+          "name": "parent_property_id",
+          "type": "string"
+        },
+        {
+          "name": "creation_date",
+          "type": "date"
+        },
+        {
+          "name": "parcel_id",
+          "type": "string"
+        },
+        {
+          "name": "is_free_hold",
+          "type": "string"
+        },
+        {
+          "name": "is_lease_hold",
+          "type": "string"
+        },
+        {
+          "name": "is_registered",
+          "type": "string"
+        },
+        {
+          "name": "pre_registration_number",
+          "type": "string"
+        },
+        {
+          "name": "master_project_id",
+          "type": "string"
+        },
+        {
+          "name": "master_project_en",
+          "type": "string"
+        },
+        {
+          "name": "master_project_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_id",
+          "type": "string"
+        },
+        {
+          "name": "project_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_name_en",
+          "type": "string"
+        },
+        {
+          "name": "land_type_id",
+          "type": "string"
+        },
+        {
+          "name": "land_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "land_type_en",
+          "type": "string"
+        },
+        {
+          "name": "_rescued_data",
+          "type": "string"
+        }
+      ],
+      "signals": {
+        "has_date": true,
+        "has_price": false,
+        "has_unit_or_property_id": true,
+        "has_area_or_project": true
+      },
+      "notes": []
+    },
+    {
+      "table": "workspace.dld_raw.buildings",
+      "row_count": 239709,
+      "columns": [
+        {
+          "name": "property_id",
+          "type": "string"
+        },
+        {
+          "name": "area_id",
+          "type": "int"
+        },
+        {
+          "name": "zone_id",
+          "type": "int"
+        },
+        {
+          "name": "area_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "area_name_en",
+          "type": "string"
+        },
+        {
+          "name": "land_number",
+          "type": "int"
+        },
+        {
+          "name": "land_sub_number",
+          "type": "int"
+        },
+        {
+          "name": "building_number",
+          "type": "string"
+        },
+        {
+          "name": "common_area",
+          "type": "string"
+        },
+        {
+          "name": "actual_common_area",
+          "type": "string"
+        },
+        {
+          "name": "floors",
+          "type": "int"
+        },
+        {
+          "name": "rooms",
+          "type": "string"
+        },
+        {
+          "name": "rooms_ar",
+          "type": "string"
+        },
+        {
+          "name": "rooms_en",
+          "type": "string"
+        },
+        {
+          "name": "car_parks",
+          "type": "string"
+        },
+        {
+          "name": "built_up_area",
+          "type": "string"
+        },
+        {
+          "name": "bld_levels",
+          "type": "string"
+        },
+        {
+          "name": "shops",
+          "type": "string"
+        },
+        {
+          "name": "flats",
+          "type": "string"
+        },
+        {
+          "name": "offices",
+          "type": "string"
+        },
+        {
+          "name": "swimming_pools",
+          "type": "string"
+        },
+        {
+          "name": "elevators",
+          "type": "string"
+        },
+        {
+          "name": "actual_area",
+          "type": "string"
+        },
+        {
+          "name": "property_type_id",
+          "type": "int"
+        },
+        {
+          "name": "property_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_type_en",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_id",
+          "type": "int"
+        },
+        {
+          "name": "property_sub_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "property_sub_type_en",
+          "type": "string"
+        },
+        {
+          "name": "parent_property_id",
+          "type": "string"
+        },
+        {
+          "name": "creation_date",
+          "type": "date"
+        },
+        {
+          "name": "parcel_id",
+          "type": "string"
+        },
+        {
+          "name": "is_free_hold",
+          "type": "string"
+        },
+        {
+          "name": "is_lease_hold",
+          "type": "string"
+        },
+        {
+          "name": "is_registered",
+          "type": "string"
+        },
+        {
+          "name": "pre_registration_number",
+          "type": "string"
+        },
+        {
+          "name": "master_project_id",
+          "type": "string"
+        },
+        {
+          "name": "master_project_en",
+          "type": "string"
+        },
+        {
+          "name": "master_project_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_id",
+          "type": "string"
+        },
+        {
+          "name": "project_name_ar",
+          "type": "string"
+        },
+        {
+          "name": "project_name_en",
+          "type": "string"
+        },
+        {
+          "name": "land_type_id",
+          "type": "string"
+        },
+        {
+          "name": "land_type_ar",
+          "type": "string"
+        },
+        {
+          "name": "land_type_en",
+          "type": "string"
+        }
+      ],
+      "signals": {
+        "has_date": true,
+        "has_price": false,
+        "has_unit_or_property_id": true,
+        "has_area_or_project": true
+      },
+      "notes": []
+    }
+  ],
+  "recommendation": {
+    "transactions_source": "workspace.default.genie_transactions_view",
+    "buildings_source": "workspace.default.buildings",
+    "reasoning": [
+      "Chosen workspace.default.genie_transactions_view because it has date, price, and unit identifiers.",
+      "Chosen workspace.default.buildings because it has unit identifiers."
+    ]
+  }
+}
