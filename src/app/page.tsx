@@ -42,7 +42,7 @@ export default function Home() {
                 <div>
                   <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2 opacity-50">Operational Doctrine</p>
                   <p className="text-sm italic text-gray-300 leading-relaxed">
-                    "Decisions are stored in Canonical Memory. Market facts are locked in Databricks. No data is inferred."
+                    &quot;Decisions are stored in Canonical Memory. Market facts are locked in Databricks. No data is inferred.&quot;
                   </p>
                 </div>
                 <div className="pt-6 border-t border-gray-800 flex items-center justify-between">
