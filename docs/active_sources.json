@@ -2,6 +2,7 @@
     "catalog": "workspace",
     "transactions_source": "workspace.default.genie_transactions_view",
     "buildings_source": "workspace.default.buildings",
+    "owners_source": "workspace.default.v_monday_crm_contact_profile",
     "monday_sources": [
         "workspace.default.monday_crm_contacts",
         "workspace.default.monday_crm_timeline"

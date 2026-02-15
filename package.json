@@ -9,6 +9,7 @@
     "lint": "eslint",
     "schema:map": "tsx scripts/generate_schema_map.ts",
     "sources:verify": "tsx scripts/verify_market_sources.ts",
+    "databricks:verify": "tsx scripts/verify_databricks_connectivity.ts",
     "queries:smoke": "tsx scripts/query_smoke_test.ts",
     "postinstall": "prisma generate"
   },
