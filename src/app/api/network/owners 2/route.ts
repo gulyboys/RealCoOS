@@ -1,18 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getOwners } from '@/lib/databricks/queries/owners';
-import { getNetworkOwners } from '@/lib/hierarchy/service';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const limitParam = searchParams.get('limit');
-  const source = searchParams.get('source');
   const parsedLimit = limitParam ? Number.parseInt(limitParam, 10) : 100;
   const limit = Number.isFinite(parsedLimit) && parsedLimit > 0 ? parsedLimit : 100;
 
   try {
-    if (source === 'hierarchy' || source === null) {
-      return NextResponse.json(getNetworkOwners(limit));
-    }
     const results = await getOwners(limit);
     return NextResponse.json(results);
   } catch (error: unknown) {

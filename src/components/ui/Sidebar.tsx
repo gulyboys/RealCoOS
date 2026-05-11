@@ -34,21 +34,19 @@ const ChartIcon = () => (
   </svg>
 );
 
-const SyncIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-  </svg>
-);
-
 export function Sidebar() {
     const pathname = usePathname();
 
     const navItems = [
-        { name: 'Overview', href: '/', icon: HomeIcon },
-        { name: 'Dashboard', href: '/dashboard', icon: DashboardIcon },
-        { name: 'Inventory', href: '/inventory', icon: BuildingIcon },
+        { name: 'Overview', href: '/', icon: HomeIcon, match: 'exact' as const },
+        { name: 'Hierarchy Dashboard', href: '/dashboard', icon: DashboardIcon, match: 'exact' as const },
+        { name: 'Zones', href: '/hierarchy/zones', icon: BuildingIcon, match: 'exact' as const },
+        { name: 'Communities', href: '/hierarchy/communities', icon: BuildingIcon, match: 'exact' as const },
+        { name: 'Projects', href: '/hierarchy/projects', icon: BuildingIcon, match: 'exact' as const },
+        { name: 'Properties', href: '/hierarchy/properties', icon: BuildingIcon, match: 'exact' as const },
+        { name: 'Hierarchy', href: '/hierarchy', icon: DashboardIcon, match: 'exact' as const },
+        { name: 'Inventory', href: '/inventory', icon: BuildingIcon, match: 'exact' as const },
         { name: 'Market', href: '/market', icon: ChartIcon },
-        { name: 'Monday Sync', href: '/sync', icon: SyncIcon },
     ];
 
     return (
@@ -61,7 +59,9 @@ export function Sidebar() {
             <nav className="flex-1 px-4 py-6">
                 <ul className="space-y-2">
                     {navItems.map((item) => {
-                        const isActive = pathname === item.href;
+                        const isActive = item.match === 'exact'
+                            ? pathname === item.href
+                            : pathname.startsWith(item.href);
                         const Icon = item.icon;
                         return (
                             <li key={item.name}>

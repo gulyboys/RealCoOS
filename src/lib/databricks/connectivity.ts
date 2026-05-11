@@ -83,8 +83,12 @@ export async function verifyDatabricksConnectivity(): Promise<DatabricksConnecti
   const startedAt = Date.now();
   const config = getDatabricksConfig();
   const sources = getUnifiedSourceConfig();
-  const missingConfig = getMissingUnifiedSources(sources);
+  const missingConfig: string[] = getMissingUnifiedSources(sources);
   const warnings = [...sources.warnings];
+
+  if (!config.host) missingConfig.unshift('DATABRICKS_HOST');
+  if (!config.httpPath) missingConfig.unshift('DATABRICKS_HTTP_PATH');
+  if (!config.token) missingConfig.unshift('DATABRICKS_TOKEN');
 
   if (!isLiveDatabricks(config)) {
     return {

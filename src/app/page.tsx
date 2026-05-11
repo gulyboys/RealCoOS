@@ -1,57 +1,92 @@
-import React from 'react';
+import Link from 'next/link';
 import { Topbar } from '@/components/ui/Topbar';
 import { Card } from '@/components/ui/Card';
 import { StatCard } from '@/components/ui/StatCard';
-import Link from 'next/link';
+import { getHierarchyTotals } from '@/lib/hierarchy/service';
+
+function formatNumber(value: number): string {
+  return value.toLocaleString('en-US');
+}
+
+const quickLinks = [
+  {
+    href: '/dashboard',
+    title: 'Hierarchy Dashboard',
+    subtitle: 'Zone to property rollups with owners, transactions, and contacts.'
+  },
+  {
+    href: '/hierarchy/zones',
+    title: 'Zones',
+    subtitle: 'Zone-level health and capacity view.'
+  },
+  {
+    href: '/hierarchy/communities',
+    title: 'Communities',
+    subtitle: 'DLD area alias mapping to community hierarchy.'
+  },
+  {
+    href: '/hierarchy/projects',
+    title: 'Projects',
+    subtitle: 'Master project and project-level coverage.'
+  },
+  {
+    href: '/hierarchy/properties',
+    title: 'Properties',
+    subtitle: 'Property-level similarity and contact access.'
+  },
+  {
+    href: '/market',
+    title: 'Market Intelligence',
+    subtitle: 'Area trend lookup from DLD transaction view.'
+  }
+];
 
 export default function Home() {
+  const totals = getHierarchyTotals();
+
   return (
     <div className="flex bg-[#fcfcfc] min-h-screen">
       <div className="flex-1 flex flex-col">
         <Topbar title="Overview" />
 
-        <div className="flex-1 p-10 overflow-y-auto max-w-6xl mx-auto w-full space-y-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <StatCard label="Total Inventory" value="239k+" color="purple" />
-            <StatCard label="Total Transactions" value="1.6M+" color="blue" />
-            <StatCard label="Data Source" value="DLD Gold" color="yellow" />
+        <div className="flex-1 p-10 overflow-y-auto max-w-7xl mx-auto w-full space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-6">
+            <StatCard label="Zones" value={formatNumber(totals.zones)} color="purple" />
+            <StatCard label="Communities" value={formatNumber(totals.communities)} color="blue" />
+            <StatCard label="Projects" value={formatNumber(totals.projects)} color="yellow" />
+            <StatCard label="Properties" value={formatNumber(totals.properties)} />
+            <StatCard label="Transactions" value={formatNumber(totals.transactions)} color="blue" />
+            <StatCard label="Network Contacts" value={formatNumber(totals.contacts)} color="purple" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <Card title="Quick Actions" className="bg-white">
-              <div className="grid grid-cols-1 gap-4">
-                <Link href="/inventory" className="p-6 border border-gray-50 rounded-2xl hover:border-gray-200 hover:bg-gray-50 transition-all flex justify-between items-center group">
-                  <div>
-                    <p className="text-sm font-bold text-gray-900">Search Inventory</p>
-                    <p className="text-xs text-gray-400 mt-1">Resolve units to Ground Truth</p>
-                  </div>
-                  <span className="text-gray-300 group-hover:text-gray-900">→</span>
-                </Link>
-                <Link href="/market" className="p-6 border border-gray-50 rounded-2xl hover:border-gray-200 hover:bg-gray-50 transition-all flex justify-between items-center group">
-                  <div>
-                    <p className="text-sm font-bold text-gray-900">Market Intelligence</p>
-                    <p className="text-xs text-gray-400 mt-1">Analyze area trends and PPSF</p>
-                  </div>
-                  <span className="text-gray-300 group-hover:text-gray-900">→</span>
-                </Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card title="Hierarchy Doctrine">
+              <div className="space-y-3 text-sm text-gray-600 leading-relaxed">
+                <p>
+                  Main order in every section: <span className="font-semibold text-gray-900">Zone &gt; Community &gt; Project &gt; Property</span>.
+                </p>
+                <p>
+                  Contacts in network and CRM can be scoped at community, project, or property level and can hold multiple roles
+                  such as seller and buyer at the same time.
+                </p>
+                <p>
+                  DLD area names are normalized into your hierarchy through alias mapping, so market transactions align with the same structure.
+                </p>
               </div>
             </Card>
 
-            <Card title="OS Governance" className="bg-gray-900 text-white">
-              <div className="space-y-6">
-                <div>
-                  <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2 opacity-50">Operational Doctrine</p>
-                  <p className="text-sm italic text-gray-300 leading-relaxed">
-                    &quot;Decisions are stored in Canonical Memory. Market facts are locked in Databricks. No data is inferred.&quot;
-                  </p>
-                </div>
-                <div className="pt-6 border-t border-gray-800 flex items-center justify-between">
-                  <div className="flex items-center space-x-2">
-                    <div className="h-2 w-2 rounded-full bg-green-500"></div>
-                    <span className="text-[10px] font-bold uppercase tracking-widest">System Armed</span>
-                  </div>
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-gray-500">V1.0.4-Stable</span>
-                </div>
+            <Card title="Quick Actions">
+              <div className="grid grid-cols-1 gap-3">
+                {quickLinks.map(link => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="p-4 border border-gray-100 rounded-xl hover:border-gray-200 hover:bg-gray-50 transition-all"
+                  >
+                    <p className="text-sm font-bold text-gray-900">{link.title}</p>
+                    <p className="text-xs text-gray-500 mt-1">{link.subtitle}</p>
+                  </Link>
+                ))}
               </div>
             </Card>
           </div>
